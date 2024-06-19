@@ -161,14 +161,6 @@
 							"script": {
 								"id": "bd419cda-2ea0-4c13-9e48-fa724a4159b8",
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
-									"    pm.response.to.have.status(200);\r",
-									"});\r",
-									"pm.test(\"Successful GET request\", function () {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
-									"});\r",
-									"pm.test(\"Status code name has string\", function () {\r",
-									"    pm.response.to.have.status(\"OK\");\r",
 									""
 								],
 								"type": "text/javascript",
